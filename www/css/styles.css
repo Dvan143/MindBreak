@@ -1,10 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    position: relative;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.4;
-    color: #000;
-    min-width: 320px;
-    overflow: hidden;
-    height: auto;
+    background: black;
+    color: white;
+}
+.Top_menu li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+.Logo, .Top_menu{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.Top_menu a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+}
+.Logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    vertical-align: middle;
+}
+.Top_menu a:hover{
+    color: aqua;
 }
