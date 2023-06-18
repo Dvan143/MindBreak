@@ -80,3 +80,18 @@ header{
       padding:50px 20px;
     }
   }
+  .right_block{ 
+    margin: 3px;
+  }
+  .right_block li{
+    list-style-type:none;
+    margin-bottom: 1em;
+  }
+  .right_block a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  .right_block a:hover{
+    color: blue;
+  }
