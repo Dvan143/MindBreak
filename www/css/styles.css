@@ -95,3 +95,7 @@ header{
   .right_block a:hover{
     color: blue;
   }
+  hr{
+    border-left: 6px solid red;
+    height: 500px;
+  }
