@@ -151,3 +151,13 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+#error{
+  border-radius:30px;
+  font-size:16px;
+  text-align: center;
+  font-weight:bold;
+  background-color:#3f93ff;
+  border:none;
+  color:red;
+  margin-top:20px;
+}

@@ -14,8 +14,8 @@
         </div>
         <div class="Top_menu">
             <ul>
-                <li><a href="register.html">Регистрация</a></li>
-                <li><a href="#">Авторизация</a></li>
+                <li><a href="#">Регистрация</a></li>
+                <li><a href="auth.html">Авторизация</a></li>
                 <li><a href="resetpassword.html">Восстановить пароль</a></li>
             </ul>
         </div>
@@ -24,7 +24,7 @@
 
 <div class="registration-cssave">
     <form method="post" id="forma">
-        <h3 class="text-center">Авторизация</h3>
+        <h3 class="text-center">Регистрация</h3>
         <div class="form-group">
             <input class="form-control item" type="email" name="email" id="email" placeholder="Email" required>
         </div>
@@ -36,14 +36,16 @@
         <div class="form-group">
             <input class="form-control item" type="password" name="password" minlength="6" id="password" placeholder="Пароль" required>
         </div>
+        <div class="form-group">
+            <input class="form-control item" type="password" name="accpassword" minlength="6" id="accpassword" placeholder="Повторите пароль" required>
+        </div>
         
         <div class="form-group">
-            <button class="btn btn-primary btn-block create-account" type="submit">Вход в аккаунт</button>
+            <button class="btn btn-primary btn-block create-account" type="submit">Создать аккаунт</button>
         </div>
         <div id="error"></div>
     </form>
 </div>
-
 
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <script src="js/first.js"></script>
